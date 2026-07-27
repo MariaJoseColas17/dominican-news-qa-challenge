@@ -1,0 +1,16 @@
+id,question,reference,prediction,confidence,exact_match,f1
+c61s2xwyfi0cugi,¿Cuál es el objetivo de la campaña de Asindown?,concienciar sobre el acoso escolar y social que sufren las personas con síndrome de Down,concienciar sobre el acoso escolar y social,0.09938068687915802,0.0,0.631578947368421
+7857zba14eers9x,¿Cómo se llama el canal 4?,Radio Televisión Dominicana,Radio Televisión Dominicana,0.6346997022628784,1.0,1.0
+hkhjremdmrmix29,¿Cuál es nuestro símbolo patrio?,La Bandera Nacional,La Bandera Nacional,0.3825618624687195,1.0,1.0
+ayfu15q9bfn5nhb,¿Quién fundó Menudo?,Edgardo García,Edgardo García,0.5457977652549744,1.0,1.0
+rpcbxp9rc8g0iuh,¿Cuando es el Miércoles de Ceniza?,El próximo miércoles 22 de febrero,El próximo miércoles 22 de febrero,0.3368147313594818,1.0,1.0
+d2xt90fah10kox5,¿A cuántos bateadores ponchó Jacob deGrom?,a 11 bateadores,11 bateadores,0.3674458861351013,0.0,0.8
+sz9yeioprmn61xv,¿Quién es el creador de Dilbert?,Scott Adams,Scott Adams,0.9591196179389954,1.0,1.0
+ak5ubvypoj83wfp,¿Cuántos minutos jugó Immanuel Quickley?,55 minutos,55 minutos,0.4476659893989563,1.0,1.0
+3u77e1org81bc7f,¿Qué jugador estaba lesionado?,Jalen Brunson,Jalen Brunson,0.796942955290433,1.0,1.0
+pxqbvfcey7z9p3q,¿Cómo será la inflación en 2023?,seguirá siendo alta,en torno al 7%,0.1872045397758484,0.0,0.0
+7yfoxupiw6mf37s,¿De qué trata la película Ramona?,gira en torno al embarazo en adolescentes,torno al embarazo en adolescentes,0.26513898372650146,0.0,0.8333333333333333
+cftfka87bhwzs6o,¿Porqué cerro al nivel más bajo el petróleo?,por las turbulencias en el sector bancario en Estados Unidos y Europa,desde diciembre,0.03697452321648598,0.0,0.0
+fokrrek3dseacem,¿A quién apresó la Procuraduría General de la República?,a tres exministros,a tres exministros,0.3295990824699402,1.0,1.0
+6ifjwhgjigmw5c3,¿A quiénes apresó la Procuraduría?,"los exministros: José Ramón Peralta, Administrativo de la Presidencia; Gonzalo Castillo, de Obras Públicas y de Hacienda, Donald Guerrero",Guerrero,0.038380373269319534,0.0,0.1111111111111111
+adrufk2slj332tf,¿Qué poema escribió Aída Portalatín?,Una mujer está sola,“Una mujer está sola,0.45098963379859924,1.0,1.0
