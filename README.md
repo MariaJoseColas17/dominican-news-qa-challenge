@@ -39,7 +39,7 @@ mejor mejora el desempeño sobre el split de `validation`.
 
 ## Cómo correrlo
 
-1. Abrir `03_Introduccion_QA_Noticias.ipynb` en Google Colab.
+1. Abrir `Introduccion_QA_Noticias.ipynb` en Google Colab.
 2. Activar GPU: `Entorno de ejecución` → `Cambiar tipo de entorno de ejecución` → `GPU`.
 3. Ejecutar todas las celdas en orden (`Entorno de ejecución` → `Reiniciar y ejecutar todo`).
 4. El notebook instala automáticamente las dependencias listadas en `09_requirements.txt`.
