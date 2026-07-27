@@ -28,6 +28,7 @@ mejor mejora el desempeño sobre el split de `validation`.
 - `variante2_results.csv` — predicciones y métricas detalladas de la
   Variante 2 (aumento de weight decay).
 
+ "El notebook produce algunas advertencias (warnings) de librerías durante la ejecución; son informativas y no afectan los resultados ni la reproducibilidad."
 ## Resultados
 
 | Configuración | Exact Match | F1 |
