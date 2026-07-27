@@ -14,11 +14,11 @@ mejor mejora el desempeño sobre el split de `validation`.
 
 ## Contenido del repositorio
 
-- `03_Introduccion_QA_Noticias.ipynb` — notebook ejecutado con: evaluación
+- Introduccion_QA_Noticias.ipynb` — notebook ejecutado con: evaluación
   del baseline, análisis de errores, entrenamiento y evaluación de 2
   variantes controladas, selección del modelo final, y generación de
   `submission.csv`.
-- `09_requirements.txt` — dependencias del proyecto.
+- `requirements.txt` — dependencias del proyecto.
 - `submission.csv` — predicciones finales del modelo elegido sobre el split
   de `test`.
 - `baseline_results.csv` — predicciones y métricas detalladas del baseline
