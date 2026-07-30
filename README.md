@@ -4,6 +4,13 @@ Proyecto final de ICC-344-T: fine-tuning de BETO para question answering
 extractivo sobre noticias dominicanas, a partir del modelo base provisto por
 la cátedra (`Lisibonny/modelo_qa_beto_squad_es_pdqa`).
 
+
+## Integrantes
+
+- María José Colás — 10154787
+- María Tiburcio — 10150779
+
+
 ## Descripción
 
 El sistema recibe una pregunta y un contexto noticioso, y extrae la respuesta
@@ -77,14 +84,6 @@ Configuraciones evaluadas sobre `validation` (15 preguntas), verificadas con
 ambas métricas. Frente al baseline son **+13.33 EM** y **+4.31 F1**; frente al
 Control, que es la comparación atribuible, **+6.66 EM** y **+2.45 F1**.
 
-> ⚠️ La Variante 5 comparte pesos con la Variante 4: lo único que las distingue
-> es `max_answer_len=30`. Ese valor se guarda en el `config.json` del checkpoint,
-> así que viaja con el modelo, pero `transformers` no lo aplica solo — su
-> pipeline usa un default de 15. El notebook lo lee del config automáticamente;
-> desde fuera hay que leerlo o pasarlo (ver
-> [Modelo final publicado](#modelo-final-publicado)). Con 15 el modelo rinde
-> 66.67 / 77.70.
-
 ### Hallazgos
 
 **1. Solo el learning rate importó entre los hiperparámetros de entrenamiento.**
@@ -157,8 +156,3 @@ qa = pipeline("question-answering", model=REPO, tokenizer=REPO,
 - Dataset: [Lisibonny/pdqa](https://huggingface.co/datasets/Lisibonny/pdqa)
 - Modelo baseline: [Lisibonny/modelo_qa_beto_squad_es_pdqa](https://huggingface.co/Lisibonny/modelo_qa_beto_squad_es_pdqa)
 - Aplicación de referencia: [Lisibonny/Repartidor_Dominicano](https://huggingface.co/spaces/Lisibonny/Repartidor_Dominicano)
-
-## Integrantes
-
-- María José Colás — 10154787
-- María Tiburcio — 10150779
